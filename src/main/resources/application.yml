@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: service-kafka-consumer-1
+  kafka:
+    properties:
+      "schema.registry.url": "mock://use-in-memory-confluent-implementation"
+      "auto.register.schemas": true
+    consumer:
+      auto-offset-reset: earliest
+      value-deserializer: io.confluent.kafka.serializers.KafkaAvroDeserializer
+      properties:
+        "specific.avro.reader": true
+      group-id: groupId
