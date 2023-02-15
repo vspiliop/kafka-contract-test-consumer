@@ -43,7 +43,7 @@ import static org.assertj.core.api.BDDAssertions.then;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE,
 		classes = {TestConfig.class, KafkaContractTestConsumerApplication.class})
 @AutoConfigureStubRunner(
-		ids = "com.example:kafka-contract-test-producer:0.0.1-SNAPSHOT",
+		ids = "com.github.vspiliop:kafka-contract-test-producer:0.0.1-SNAPSHOT",
 		stubsMode = StubRunnerProperties.StubsMode.LOCAL,
 		stubsPerConsumer = true)
 @Testcontainers
