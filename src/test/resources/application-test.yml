@@ -7,3 +7,4 @@ logging:
   level:
     com.example.demo: debug
     org.springframework: info
+    org.springframework.cloud.contract: debug

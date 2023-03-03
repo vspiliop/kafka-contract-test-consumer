@@ -49,7 +49,7 @@ import static org.assertj.core.api.BDDAssertions.then;
 @Testcontainers
 @ActiveProfiles("test")
 @Slf4j
-public class ApplicationTests {
+public class LoadSpringContextContractTest {
 
 	@Container
 	static KafkaContainer kafka
