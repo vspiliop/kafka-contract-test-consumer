@@ -5,17 +5,17 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.1-SNAPSHOT</version>
+		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.github.vspiliop</groupId>
 	<artifactId>kafka-contract-test-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>kafka-contract-test-consumer</name>
-	<description>Demo project for contract terting of kafka consumers</description>
+	<description>Demo project for contract testing of kafka consumers</description>
 	<properties>
 		<java.version>19</java.version>
-		<spring-cloud.version>2022.0.0</spring-cloud.version>
+		<spring-cloud.version>2023.0.0</spring-cloud.version>
 		<testcontainers.version>1.17.6</testcontainers.version>
 		<avro.version>1.11.1</avro.version>
 		<confluent.version>7.3.1</confluent.version>
